@@ -1,0 +1,159 @@
+.main
+{
+    width: 100%;
+    min-height: 700px;
+}
+.nav1
+{
+    width: 100%;
+    height: 66px;
+    display: flex;
+}
+.nav2
+{
+    width: 100%;
+    height: 48px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    
+}
+.left
+{
+    width: 64%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: -7px
+}
+.right
+{
+    width: 35%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 214px;
+    h5
+    {
+        font-size: 13px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+.searchbar
+{
+    width: 66%;
+    height: 34px;
+    margin-left: 15px;
+    border: 0.2px solid gray;
+    border-radius: 7px;
+    color: #b1abab;
+    display: flex;
+    align-items: center;
+}
+input
+{
+    width: 92%;
+    height: 27px;
+    border: none;
+    color: #b1abab;
+}
+.left1
+{
+    width: 30%;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 140px;
+    h5
+    {
+        font-size: 14px;
+        font-weight: 200;
+        color: #3e3939;
+        cursor: pointer;
+    }
+}
+.right1
+{
+    width: 23%;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 405px;   
+    h5
+    {
+        font-size: 13px;
+        font-weight: 400;
+        color: #3e3939;
+        cursor: pointer;
+
+    }
+}
+.bookmyshow
+{
+    cursor: pointer;
+}
+.recommended
+{
+    width: 87%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 98px;
+}
+.movies
+{
+    width: 15%;
+    height: 400px;
+}
+.border
+{
+    border-radius: 9px;
+}
+h5
+{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(102, 102, 102);
+    margin-top: -14px;
+    
+}
+h4
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.stream
+{
+    width: 82%;
+    height: 100px;
+    margin-left: 145px;
+    margin-top: 73px;
+}
+.live
+{
+    width: 82%;
+    height: 400px;
+    margin-left: 150px;
+}
+.live1
+{
+    width: 78%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.events
+{
+    width: 21%;
+    height: 219px;
+}
+.header
+{
+    text-align: start;
+}
