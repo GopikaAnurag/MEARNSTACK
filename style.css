@@ -1,7 +1,7 @@
 .main
 {
     width: 100%;
-    min-height: 700px;
+    min-height: 800px;
 }
 .nav1
 {
@@ -36,7 +36,7 @@
     margin-right: 214px;
     h5
     {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 400;
         cursor: pointer;
     }
@@ -62,11 +62,11 @@ input
 .left1
 {
     width: 30%;
-    height: 78px;
+    height: 57px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 140px;
+    margin-left: 217px;
     h5
     {
         font-size: 14px;
@@ -78,7 +78,7 @@ input
 .right1
 {
     width: 23%;
-    height: 78px;
+    height: 57px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -96,21 +96,31 @@ input
 {
     cursor: pointer;
 }
+.recommendedmovies
+{
+    margin-left: 239px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+}
 .recommended
 {
-    width: 87%;
+    width: 79%;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 98px;
+    margin-left: 178px;
+    margin-top: -113px;
+
 }
 .movies
 {
     width: 15%;
     height: 400px;
-}
-.border
+
+    .border
 {
     border-radius: 9px;
 }
@@ -119,34 +129,38 @@ h5
     font-size: 16px;
     font-weight: normal;
     color: rgb(102, 102, 102);
-    margin-top: -14px;
+    margin-top: -9px;
     
 }
 h4
 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
+
+}
+
 .stream
 {
-    width: 82%;
+    width: 71%;
     height: 100px;
-    margin-left: 145px;
-    margin-top: 73px;
+    margin-left: 234px;
+    margin-top: 62px;
 }
 .live
 {
     width: 82%;
     height: 400px;
-    margin-left: 150px;
+    margin-left: 253px;
 }
 .live1
 {
-    width: 78%;
+    width: 68%;
     height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -71px;
 }
 .events
 {
@@ -156,4 +170,144 @@ h4
 .header
 {
     text-align: start;
+    margin-top: 90px;
+}
+.premiere
+{
+    width: 100%;
+    height: 134px;
+    background-color:  rgb(43, 49, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+}
+.premieres
+{
+    width: 100%;
+    height: 545px;
+    background-color:  rgb(43, 49, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.premiere1
+{
+    width: 61%;
+    height: 100px;
+    margin-left: -171px;
+}
+.images
+{
+    width: 17%;
+    height: 350px;
+    border-radius: 10px;
+
+    h5
+{
+    font-size: 16px;
+    font-weight: normal;
+    color:rgb(255, 255, 255);
+    
+}
+    h3
+{
+    color:rgb(255, 255, 255);
+}
+
+}
+.parentimage
+{
+    width: 67%;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -132px;
+}
+.brand
+{
+    width: 100%;
+    height: 90px;
+    margin-left: -7px;
+    color: rgb(255, 255, 255);
+}
+.music
+{
+    width: 71%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 211px;
+    margin-top: -110px;
+}
+.studio
+{
+    width: 15%;
+    height: 400px;
+    border-radius: 10px;   
+
+    h5
+    {
+        margin-top: -14px;
+    }
+}
+.musicstudio
+{
+    margin-left: 265px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+}
+.outdoorevents
+{
+    margin-left: 265px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 173px;
+h2
+{
+    font-size: 24px;
+}
+}
+.outdoor
+{
+    width: 71%;
+    height: 384px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 211px;
+}
+.event
+{
+    width: 15%;
+    height: 400px;
+    border-radius: 10px;   
+
+    h5
+    {
+        margin-top: -14px;
+    }
+}
+.mainfooter
+{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(49, 48, 53);
+    margin-top: 250px;
+}
+.footer1
+{
+    width: 68%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    margin-left: 251px;
 }
